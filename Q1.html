@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+<script>
+
+let arr=[1,2,3,4,8,7,8,9,10];
+
+class Stack {
+
+// Array is used to implement stack
+constructor()
+{
+    this.items = [];
+} 
+
+
+
+push(element)
+{
+      this.items.push(element);
+}
+
+pop()
+{
+     if (this.items.length == 0)
+        return 'Underflow'
+    return this.items.pop();
+}
+
+     isEmpty() {
+        return this.items.length == 0;
+    }
+     
+    reverse() {
+                let reversedArray = [];
+                while (!this.isEmpty()) {
+                    reversedArray.push(this.pop());
+                }
+                return reversedArray;
+}
+
+
+
+
+
+}
+
+
+
+let stack = new Stack();
+
+arr.map(item=>{
+    rt=stack.push(item);
+
+    // rt2=stack.pop(rt);
+}
+)
+
+ 
+let reversedArray = stack.reverse(arr);
+console.log( reversedArray);
+ 
+
+   
+ 
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
