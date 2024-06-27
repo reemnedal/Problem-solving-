@@ -1,1 +1,1 @@
-problem solving task using stsck and linkedlist 
+problem solving task using stack and linkedlist 
